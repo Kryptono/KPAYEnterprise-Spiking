@@ -1,0 +1,11 @@
+framework module KPayEnterpriseSDK_Spiking {
+  umbrella header "KPayEnterpriseSDK_Spiking.h"
+
+  export *
+  module * { export * }
+}
+
+module KPayEnterpriseSDK_Spiking.Swift {
+    header "KPayEnterpriseSDK_Spiking-Swift.h"
+    requires objc
+}
